@@ -1,6 +1,11 @@
 import React, { useEffect } from "react"
 
 function NewStoreForm({ newStore, setNewStore, stores, setStores }) {
+
+    useEffect(() =>
+        functionForFetch()
+    )
+
     const functionForFetch = () => {
         fetch(url, {
             method: 'post',
@@ -20,15 +25,11 @@ function NewStoreForm({ newStore, setNewStore, stores, setStores }) {
                 episode: newStore.episode
             }
         })
+        updateStore()
+    }
 
-        // Post request goes here
-
-        useEffect(() =>
-            functionForFetch()
-        )
-        update state of stores
-
-
+    function updateStore() {
+        setStores([...stores, newStore])
     }
 
     function handleChange(e) {

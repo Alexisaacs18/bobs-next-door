@@ -1,94 +1,133 @@
 {
-"stores": [
-        {
-        "id": 1,
-        "name": "P.F.E.T.A",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/1.jpg",
-        "season": 1,
-        "episode": 1,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/1",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/1"
-        },
-        {
-        "id": 2,
-        "name": "Trot's All Natural Fertilizer",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/2.jpg",
-        "season": 1,
-        "episode": 2,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/2",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/2"
-        },
-        {
-        "id": 3,
-        "name": "RENT REDUCED: Crime Scene Special",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/3.jpg",
-        "season": 1,
-        "episode": 3,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/3",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/3"
-        },
-        {
-        "id": 4,
-        "name": "Meth I Can! Methadone Clinic",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/4.jpg",
-        "season": 1,
-        "episode": 4,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/4",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/4"
-        },
-        {
-        "id": 5,
-        "name": "SYNTHESIZERS! SYNTHESIZERS! SYNTHESIZERS!",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/5.jpg",
-        "season": 1,
-        "episode": 5,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/5",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/5"
-        },
-        {
-        "id": 6,
-        "name": "Extra Moist Yoga",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/6.jpg",
-        "season": 1,
-        "episode": 6,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/6",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/6"
-        },
-        {
-        "id": 7,
-        "name": "The Horse Renderer",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/7.jpg",
-        "season": 1,
-        "episode": 7,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/7",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/7"
-        },
-        {
-        "id": 8,
-        "name": "ATTEMPTED CREPE French Cooking School",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/8.jpg",
-        "season": 1,
-        "episode": 8,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/8",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/8"
-        },
-        {
-        "id": 9,
-        "name": "STD B-Gone! FREE CLINIC",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/9.jpg",
-        "season": 1,
-        "episode": 9,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/9",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/9"
-        },
-        {
-        "id": 10,
-        "name": "ROCKY REFUGE RACCOON SANCTUARY",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/10.jpg",
-        "season": 1,
-        "episode": 10,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/10",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/10"
-        }
-    ]
+  "stores": [
+    {
+      "id": 1,
+      "name": "P.F.E.T.A",
+      "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/1.jpg",
+      "season": 1,
+      "episode": 1,
+      "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/1",
+      "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/1"
+    },
+    {
+      "id": 2,
+      "name": "Trot's All Natural Fertilizer",
+      "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/2.jpg",
+      "season": 1,
+      "episode": 2,
+      "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/2",
+      "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/2"
+    },
+    {
+      "id": 3,
+      "name": "RENT REDUCED: Crime Scene Special",
+      "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/3.jpg",
+      "season": 1,
+      "episode": 3,
+      "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/3",
+      "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/3"
+    },
+    {
+      "id": 4,
+      "name": "Meth I Can! Methadone Clinic",
+      "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/4.jpg",
+      "season": 1,
+      "episode": 4,
+      "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/4",
+      "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/4"
+    },
+    {
+      "id": 5,
+      "name": "SYNTHESIZERS! SYNTHESIZERS! SYNTHESIZERS!",
+      "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/5.jpg",
+      "season": 1,
+      "episode": 5,
+      "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/5",
+      "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/5"
+    },
+    {
+      "id": 6,
+      "name": "Extra Moist Yoga",
+      "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/6.jpg",
+      "season": 1,
+      "episode": 6,
+      "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/6",
+      "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/6"
+    },
+    {
+      "id": 7,
+      "name": "The Horse Renderer",
+      "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/7.jpg",
+      "season": 1,
+      "episode": 7,
+      "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/7",
+      "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/7"
+    },
+    {
+      "id": 8,
+      "name": "ATTEMPTED CREPE French Cooking School",
+      "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/8.jpg",
+      "season": 1,
+      "episode": 8,
+      "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/8",
+      "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/8"
+    },
+    {
+      "id": 9,
+      "name": "STD B-Gone! FREE CLINIC",
+      "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/9.jpg",
+      "season": 1,
+      "episode": 9,
+      "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/9",
+      "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/9"
+    },
+    {
+      "id": 10,
+      "name": "ROCKY REFUGE RACCOON SANCTUARY",
+      "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/10.jpg",
+      "season": 1,
+      "episode": 10,
+      "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/10",
+      "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/10"
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    }
+  ]
 }
