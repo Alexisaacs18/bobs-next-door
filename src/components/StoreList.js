@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Store from "./Store";
 
-function StoreList({stores}) {
+function StoreList({ stores, newStore }) {
 
-    
+
 
 
   return (
@@ -17,7 +17,7 @@ function StoreList({stores}) {
         </tr>
         {/** Render a list of <Store> components here. */}
         {stores.map((store) => (
-        <Store key={store.id} name={store.name} image={store.image} season={store.season} episode={store.episode} />
+          <Store key={store.id} name={store.name} image={store.image} season={store.season} episode={store.episode} />
         ))}
 
       </tbody>

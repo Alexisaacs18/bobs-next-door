@@ -8,6 +8,15 @@ function App() {
 
   const [stores, setStores] = useState([])
 
+  const [newStore, setNewStore] = useState({
+    name: '',
+    image: '',
+    season: 0,
+    episode: 0
+  })
+
+
+
   useEffect(() => {
     loadStores();
   }, []);
@@ -25,8 +34,8 @@ function App() {
       <img src="/images/bobsburgers.png" />
       <h1>Neighbor Stores</h1>
       <Search />
-      <NewStoreForm />
-      <StoreList stores={stores}/>
+      <NewStoreForm stores={stores} setStores={setStores} newStore={newStore} setNewStore={setNewStore} />
+      <StoreList stores={stores} />
     </div>
   );
 }
